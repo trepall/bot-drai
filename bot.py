@@ -22,7 +22,7 @@ async def start(message: types.Message):
     # Кнопка для Telegram Mini App
     kb.button(
         text="📱 Открыть в приложении",
-        web_app=WebAppInfo(url="https://trepall.github.io/Portal-market/")
+        web_app=WebAppInfo(url="https://trepall.github.io/draineeer/")
     )
     kb.adjust(1)
 
